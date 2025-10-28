@@ -1,0 +1,2 @@
+This is the Odin Project I am working on.
+I believe by the end of this project, i will know much about fullstack development
