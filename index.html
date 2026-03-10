@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trials</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <script src="script.js"></script>
+
+  <button class="btn">Click Me</button>
+  <p>This is a tutorial on DOM</p>
+  
+  <script>
+    const btn = document.querySelector('.btn');
+    const p = document.querySelector('p');
+
+    btn.addEventListener('click', () => {
+      p.textContent = 'Button Clicked!';
+    });
+  </script>
+</body>
+
+</html>
